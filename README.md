@@ -1,5 +1,29 @@
 # powerplant-coding-challenge
 
+# PowerPlant Service
+
+Service created with the purpose of meeting the requirements of the challenge below.
+
+## Requirements/Tech stack
+
+* Visual studio or any other IDE
+* .Net core 6.0
+* Docker
+
+## Run
+
+To run this service in your local machine please follow this steps:
+- Go to PowerPlantService.sln folder (\powerplant-coding-challenge)
+- Open your terminal and execute the command: docker compose up -d service
+- Open your browser and go to [Swagger](http://localhost:8888/swagger/index.html) page.
+- Or, open your Postman and create a new POST to the http://localhost:8888/productionplan endpoint.
+
+
+Thank you!
+
+## The Challenge
+
+[Reference](https://github.com/gem-spaas/powerplant-coding-challenge)
 
 ## Welcome !
 

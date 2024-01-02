@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+
+  service:
+    container_name: power-plant-service
+    image: power-plant-service
+    build:
+      context: .
+      dockerfile: deploy/Docker/Dockerfile
+    ports:
+      - 8888:8888
